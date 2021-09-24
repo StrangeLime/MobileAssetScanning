@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Scan" max_length="40" name="x_689729_mobile_as_scan" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Barcode" max_length="40" name="barcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Scanner Id" max_length="40" name="scannerid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
+        <element label="User Id" max_length="40" name="userid" type="integer"/>
+    </element>
+</database>
