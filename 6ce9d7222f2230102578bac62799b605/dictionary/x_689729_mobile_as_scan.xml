@@ -5,6 +5,13 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Scanner Id" max_length="40" name="scannerid" type="string"/>
+        <element choice="3" label="State" max_length="40" name="states" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="3"/>
+                <element inactive_on_update="false" label="Awaiting Approval" value="1"/>
+                <element inactive_on_update="false" label="Rejected" value="2"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
         <element label="User Id" max_length="40" name="userid" type="integer"/>
     </element>
