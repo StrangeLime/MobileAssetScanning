@@ -4,6 +4,15 @@
         <element label="LocationId" mandatory="true" max_length="32" name="locationid" reference="x_689729_mobile_as_location" reference_qual="sys_idSTARTSWITH^EQ" reference_qual_condition="sys_idSTARTSWITH^EQ" type="reference"/>
         <element display="true" label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
         <element label="ScannerId" mandatory="true" max_length="32" name="scannerid" reference="x_689729_mobile_as_scan" reference_qual="sys_idSAMEASsys_id^EQ" reference_qual_condition="sys_idSAMEASsys_id^EQ" type="reference"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting Verification" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Invalid Data" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Awaiting Approval" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Approved" sequence="5" value="5"/>
+            </choice>
+        </element>
         <element label="Timestamp" mandatory="true" max_length="40" name="timestamp" type="glide_date_time"/>
         <index name="index">
             <element name="assetid"/>
