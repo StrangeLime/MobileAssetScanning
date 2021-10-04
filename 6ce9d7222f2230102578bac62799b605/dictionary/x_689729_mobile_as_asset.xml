@@ -2,7 +2,8 @@
     <element label="Asset" max_length="40" name="x_689729_mobile_as_asset" type="collection">
         <element label="Barcode" mandatory="true" max_length="100" name="barcode" type="string"/>
         <element label="Description" max_length="1024" name="description" type="string"/>
+        <element default="0" display="true" label="Id" mandatory="true" max_length="40" name="id" type="integer"/>
         <element label="Name" mandatory="true" max_length="200" name="name" type="string"/>
-        <element display="true" label="Value" mandatory="true" max_length="10" name="value" type="currency"/>
+        <element label="Value" mandatory="true" max_length="10" name="value" type="currency"/>
     </element>
 </database>
