@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="value" label="Value" language="en" table="x_689729_mobile_as_asset">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <help/>
+            <hint/>
+            <label>Value</label>
+            <language>en</language>
+            <name>x_689729_mobile_as_asset</name>
+            <plural>Values</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-04 18:16:19</sys_created_on>
+            <sys_id>7669e1742f4330102578bac62799b627</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Value</sys_name>
+            <sys_package display_value="Mobile Asset Scanning" source="x_689729_mobile_as">6ce9d7222f2230102578bac62799b605</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
+            <sys_update_name>sys_documentation_x_689729_mobile_as_asset_value_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-04 18:16:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

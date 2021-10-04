@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Scan" max_length="40" name="x_689729_mobile_as_scan" sizeclass="0" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Barcode" max_length="40" name="barcode" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Scanner Id" max_length="40" name="scannerid" type="string"/>
-        <element choice="3" label="State" max_length="40" name="states" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Approved" value="3"/>
-                <element inactive_on_update="false" label="Awaiting Approval" value="1"/>
-                <element inactive_on_update="false" label="Rejected" value="2"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" label="Timestamp" max_length="40" name="timestamp" type="glide_date_time"/>
-        <element label="User Id" max_length="40" name="userid" type="integer"/>
+    <element label="Scan" max_length="40" name="x_689729_mobile_as_scan" type="collection">
+        <element label="AssetId" max_length="32" name="assetid" reference="x_689729_mobile_as_asset" type="reference"/>
+        <element label="LocationId" mandatory="true" max_length="32" name="locationid" reference="x_689729_mobile_as_location" reference_qual="sys_idSTARTSWITH^EQ" reference_qual_condition="sys_idSTARTSWITH^EQ" type="reference"/>
+        <element display="true" label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element label="ScannerId" mandatory="true" max_length="32" name="scannerid" reference="x_689729_mobile_as_scan" reference_qual="sys_idSAMEASsys_id^EQ" reference_qual_condition="sys_idSAMEASsys_id^EQ" type="reference"/>
+        <element label="Timestamp" mandatory="true" max_length="40" name="timestamp" type="glide_date_time"/>
+        <index name="index">
+            <element name="assetid"/>
+        </index>
+        <index name="index2">
+            <element name="locationid"/>
+        </index>
+        <index name="index3">
+            <element name="scannerid"/>
+        </index>
     </element>
 </database>

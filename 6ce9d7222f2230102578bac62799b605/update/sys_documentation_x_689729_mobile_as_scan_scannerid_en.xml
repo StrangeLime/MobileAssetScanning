@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="scannerid" label="Scanner Id" language="en" table="x_689729_mobile_as_scan">
+    <sys_documentation element="scannerid" label="ScannerId" language="en" table="x_689729_mobile_as_scan">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>scannerid</element>
             <help/>
             <hint/>
-            <label>Scanner Id</label>
+            <label>ScannerId</label>
             <language>en</language>
             <name>x_689729_mobile_as_scan</name>
-            <plural>Scanner Ids</plural>
+            <plural>ScannerIds</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-09-15 18:23:03</sys_created_on>
-            <sys_id>18c4ffe62f6230102578bac62799b611</sys_id>
+            <sys_created_on>2021-10-04 18:19:27</sys_created_on>
+            <sys_id>b82a25b42f4330102578bac62799b678</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Scanner Id</sys_name>
+            <sys_name>ScannerId</sys_name>
             <sys_package display_value="Mobile Asset Scanning" source="x_689729_mobile_as">6ce9d7222f2230102578bac62799b605</sys_package>
             <sys_policy/>
             <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
             <sys_update_name>sys_documentation_x_689729_mobile_as_scan_scannerid_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-09-15 18:23:03</sys_updated_on>
+            <sys_updated_on>2021-10-04 18:19:27</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-15 18:23:07</sys_created_on>
+        <sys_id>9dc4ffe62f6230102578bac62799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_689729_mobile_as_scan.x_689729_mobile_as.admin</sys_name>
+        <sys_package display_value="Mobile Asset Scanning" source="x_689729_mobile_as">6ce9d7222f2230102578bac62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
+        <sys_security_acl display_value="x_689729_mobile_as_scan">55c4ffe62f6230102578bac62799b6c3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9dc4ffe62f6230102578bac62799b6c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-15 18:23:07</sys_updated_on>
+        <sys_user_role display_value="x_689729_mobile_as.admin" name="x_689729_mobile_as.admin">ae1ad3a62f2230102578bac62799b669</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</application>
+        <file_path/>
+        <instance_id>dfbe7876db4320d05749cac50596191a</instance_id>
+        <instance_name>dev108657</instance_name>
+        <name>sys_security_acl_role_9dc4ffe62f6230102578bac62799b6c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-15 18:23:07</sys_created_on><sys_id>9dc4ffe62f6230102578bac62799b6c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_689729_mobile_as_scan.x_689729_mobile_as.admin</sys_name><sys_package display_value="Mobile Asset Scanning" source="x_689729_mobile_as">6ce9d7222f2230102578bac62799b605</sys_package><sys_policy/><sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope><sys_security_acl display_value="x_689729_mobile_as_scan">55c4ffe62f6230102578bac62799b6c3</sys_security_acl><sys_update_name>sys_security_acl_role_9dc4ffe62f6230102578bac62799b6c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-15 18:23:07</sys_updated_on><sys_user_role display_value="x_689729_mobile_as.admin" name="x_689729_mobile_as.admin">ae1ad3a62f2230102578bac62799b669</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>292058199</payload_hash>
+        <record_name>x_689729_mobile_as_scan.x_689729_mobile_as.admin</record_name>
+        <reverted_from/>
+        <source>60e9d7222f2230102578bac62799b608</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-15 18:23:07</sys_created_on>
+        <sys_id>29c4ffe62f6230102578bac62799b6c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17beab2bd9f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-15 18:23:07</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>61c4ffe69462301022051d03765e5bc8</update_guid>
+        <update_guid_history>61c4ffe69462301022051d03765e5bc8:292058199</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_689729_mobile_as_scan.x_689729_mobile_as.admin">61c3e1fc2f0330102578bac62799b6fb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-04 17:51:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1020db57a37041728147932f5e2d3841</sys_id>
+        <sys_metadata>9dc4ffe62f6230102578bac62799b6c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_689729_mobile_as_scan.x_689729_mobile_as.admin</sys_name>
+        <sys_package display_value="Mobile Asset Scanning" source="x_689729_mobile_as">6ce9d7222f2230102578bac62799b605</sys_package>
+        <sys_parent display_value="">55c4ffe62f6230102578bac62799b6c3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
+        <sys_scope_delete display_value="">5d84b35ddb1047cca4c1fdc109563d90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_9dc4ffe62f6230102578bac62799b6c5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_9dc4ffe62f6230102578bac62799b6c5">29c4ffe62f6230102578bac62799b6c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-04 17:51:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

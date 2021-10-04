@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_689729_mobile_as_scan</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Sets the Quantity field to mandatory</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-15 18:23:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78c4ffe62f6230102578bac62799b658</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sets the Quantity field to mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mobile Asset Scanning" source="x_689729_mobile_as">6ce9d7222f2230102578bac62799b605</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
+        <sys_update_name>sys_data_policy2_78c4ffe62f6230102578bac62799b658</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-15 18:23:04</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</application>
+        <file_path/>
+        <instance_id>dfbe7876db4320d05749cac50596191a</instance_id>
+        <instance_name>dev108657</instance_name>
+        <name>sys_data_policy2_78c4ffe62f6230102578bac62799b658</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_689729_mobile_as_scan</model_table><reverse_if_false>true</reverse_if_false><short_description>Sets the Quantity field to mandatory</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-15 18:23:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>78c4ffe62f6230102578bac62799b658</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sets the Quantity field to mandatory</sys_name><sys_overrides/><sys_package display_value="Mobile Asset Scanning" source="x_689729_mobile_as">6ce9d7222f2230102578bac62799b605</sys_package><sys_policy/><sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope><sys_update_name>sys_data_policy2_78c4ffe62f6230102578bac62799b658</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-15 18:23:04</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>1102011077</payload_hash>
+        <record_name>Sets the Quantity field to mandatory</record_name>
+        <reverted_from/>
+        <source>60e9d7222f2230102578bac62799b608</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-15 18:23:04</sys_created_on>
+        <sys_id>f4c4ffe62f6230102578bac62799b65a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17beab2b2140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-15 18:23:04</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>fcc4ffe67d623010c50384d5658c9659</update_guid>
+        <update_guid_history>fcc4ffe67d623010c50384d5658c9659:1102011077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-04 17:51:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>449ab6cf2e9343189cd3d76606eeab31</sys_id>
+        <sys_metadata>78c4ffe62f6230102578bac62799b658</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sets the Quantity field to mandatory</sys_name>
+        <sys_package display_value="Mobile Asset Scanning" source="x_689729_mobile_as">6ce9d7222f2230102578bac62799b605</sys_package>
+        <sys_parent display_value="">40c4bfe62f6230102578bac62799b693</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
+        <sys_scope_delete display_value="">5d84b35ddb1047cca4c1fdc109563d90</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_78c4ffe62f6230102578bac62799b658</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_78c4ffe62f6230102578bac62799b658">f4c4ffe62f6230102578bac62799b65a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-04 17:51:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

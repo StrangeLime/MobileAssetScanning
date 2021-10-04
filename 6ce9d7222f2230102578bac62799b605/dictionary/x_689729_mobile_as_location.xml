@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Location" max_length="40" name="x_689729_mobile_as_location" type="collection">
+        <element label="Description" max_length="1024" name="description" type="string"/>
+        <element label="Latitude" mandatory="true" max_length="40" name="latitude" type="float"/>
+        <element label="Longitude" mandatory="true" max_length="40" name="longitude" type="float"/>
+        <element label="Name" mandatory="true" max_length="200" name="name" type="string"/>
+    </element>
+</database>
