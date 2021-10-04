@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Scan" max_length="40" name="x_689729_mobile_as_scan" type="collection">
         <element label="Approval History" max_length="4000" name="approval_history" type="journal"/>
+        <element label="AssetCode" mandatory="true" max_length="20" name="assetcode" type="string"/>
         <element label="Asset" max_length="32" name="assetid" reference="x_689729_mobile_as_asset" type="reference"/>
         <element label="Location" mandatory="true" max_length="32" name="locationid" reference="x_689729_mobile_as_location" type="reference"/>
+        <element label="Location Code" mandatory="true" max_length="20" name="location_code" type="string"/>
         <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element display="true" label="ScannerCode" mandatory="true" max_length="20" name="scannercode" type="string"/>
         <element label="Scanner" mandatory="true" max_length="32" name="scannerid" reference="x_689729_mobile_as_scanner" type="reference"/>
         <element choice="3" default="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
