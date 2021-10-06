@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description>Validates and approves a mobile asset scan.</description>
         <internal_name>scan_approval</internal_name>
-        <label_cache>[{"name":"114a9e7e-1773-4b92-8c57-bf547b4147b0.approval_state","label":"7➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c67570b9-f049-47be-ab22-2383e898bc9f.table_name","label":"13➛Scan Table","reference":"x_689729_mobile_as_scan","reference_display":"Scan Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c67570b9-f049-47be-ab22-2383e898bc9f.record","label":"13➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"350692be-06b5-4837-9b63-ca99575086d7.table_name","label":"6➛Scan Table","reference":"x_689729_mobile_as_scan","reference_display":"Scan Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"350692be-06b5-4837-9b63-ca99575086d7.record","label":"6➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed6e7ba0-528f-432a-a622-009cedd93992.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"ed6e7ba0-528f-432a-a622-009cedd93992.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"ed6e7ba0-528f-432a-a622-009cedd93992.Table","label":"4➛Location Table","reference":"x_689729_mobile_as_location","reference_display":"Location Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed6e7ba0-528f-432a-a622-009cedd93992.Record","label":"4➛Location Record","reference":"x_689729_mobile_as_location","reference_display":"Location Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8c874e27-d446-43a8-a436-d4fb479e8487.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"8c874e27-d446-43a8-a436-d4fb479e8487.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"8c874e27-d446-43a8-a436-d4fb479e8487.Table","label":"3➛Scanner Table","reference":"x_689729_mobile_as_scanner","reference_display":"Scanner Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8c874e27-d446-43a8-a436-d4fb479e8487.Record","label":"3➛Scanner Record","reference":"x_689729_mobile_as_scanner","reference_display":"Scanner Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e037801c-c830-4b57-8b25-ae4d01ccd83c.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"e037801c-c830-4b57-8b25-ae4d01ccd83c.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e037801c-c830-4b57-8b25-ae4d01ccd83c.Table","label":"2➛Asset Table","reference":"x_689729_mobile_as_asset","reference_display":"Asset Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e037801c-c830-4b57-8b25-ae4d01ccd83c.Record","label":"2➛Asset Record","reference":"x_689729_mobile_as_asset","reference_display":"Asset","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan","type":"reference","base_type":"reference","attributes":{}},{"name":"b1a76cdd-0314-49d2-9d25-5a90377a7a87.table_name","label":"1➛Scan Table","reference":"x_689729_mobile_as_scan","reference_display":"Scan Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b1a76cdd-0314-49d2-9d25-5a90377a7a87.record","label":"1➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.assetcode","label":"Trigger➛Scan Record➛AssetCode","reference":"","reference_display":"AssetCode","type":"string","base_type":"string","parent_table_name":"x_689729_mobile_as_scan","column_name":"assetcode"},{"name":"Created_1.current.scannercode","label":"Trigger➛Scan Record➛ScannerCode","reference":"","reference_display":"ScannerCode","type":"string","base_type":"string","parent_table_name":"x_689729_mobile_as_scan","column_name":"scannercode"},{"name":"Created_1.current.location_code","label":"Trigger➛Scan Record➛Location Code","reference":"","reference_display":"Location Code","type":"string","base_type":"string","parent_table_name":"x_689729_mobile_as_scan","column_name":"location_code"},{"name":"9d58fc52-17b1-4eb2-981c-9c268f2cf081.record","label":"9➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9d58fc52-17b1-4eb2-981c-9c268f2cf081.table_name","label":"9➛Scan Table","reference":"x_689729_mobile_as_scan","reference_display":"Scan Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec830bb-8bd3-4812-a575-fbca63869677.record","label":"11➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec830bb-8bd3-4812-a575-fbca63869677.table_name","label":"11➛Scan Table","reference":"x_689729_mobile_as_scan","reference_display":"Scan Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e037801c-c830-4b57-8b25-ae4d01ccd83c.Record.id","label":"2➛Asset Record➛Id","reference":"","reference_display":"Id","type":"integer","base_type":"integer","parent_table_name":"x_689729_mobile_as_asset","column_name":"id"},{"name":"8c874e27-d446-43a8-a436-d4fb479e8487.Record.id","label":"3➛Scanner Record➛Id","reference":"","reference_display":"Id","type":"integer","base_type":"integer","parent_table_name":"x_689729_mobile_as_scanner","column_name":"id"},{"name":"ed6e7ba0-528f-432a-a622-009cedd93992.Record.id","label":"4➛Location Record➛Id","reference":"","reference_display":"Id","type":"integer","base_type":"integer","parent_table_name":"x_689729_mobile_as_location","column_name":"id"}]</label_cache>
+        <label_cache>[{"name":"114a9e7e-1773-4b92-8c57-bf547b4147b0.approval_state","label":"7➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c67570b9-f049-47be-ab22-2383e898bc9f.table_name","label":"13➛Scan Table","reference":"x_689729_mobile_as_scan","reference_display":"Scan Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c67570b9-f049-47be-ab22-2383e898bc9f.record","label":"13➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"350692be-06b5-4837-9b63-ca99575086d7.table_name","label":"6➛Scan Table","reference":"x_689729_mobile_as_scan","reference_display":"Scan Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"350692be-06b5-4837-9b63-ca99575086d7.record","label":"6➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed6e7ba0-528f-432a-a622-009cedd93992.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"ed6e7ba0-528f-432a-a622-009cedd93992.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"ed6e7ba0-528f-432a-a622-009cedd93992.Table","label":"4➛Location Table","reference":"x_689729_mobile_as_location","reference_display":"Location Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed6e7ba0-528f-432a-a622-009cedd93992.Record","label":"4➛Location Record","reference":"x_689729_mobile_as_location","reference_display":"Location Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8c874e27-d446-43a8-a436-d4fb479e8487.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"8c874e27-d446-43a8-a436-d4fb479e8487.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"8c874e27-d446-43a8-a436-d4fb479e8487.Table","label":"3➛Scanner Table","reference":"x_689729_mobile_as_scanner","reference_display":"Scanner Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8c874e27-d446-43a8-a436-d4fb479e8487.Record","label":"3➛Scanner Record","reference":"x_689729_mobile_as_scanner","reference_display":"Scanner Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e037801c-c830-4b57-8b25-ae4d01ccd83c.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"e037801c-c830-4b57-8b25-ae4d01ccd83c.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e037801c-c830-4b57-8b25-ae4d01ccd83c.Table","label":"2➛Asset Table","reference":"x_689729_mobile_as_asset","reference_display":"Asset Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e037801c-c830-4b57-8b25-ae4d01ccd83c.Record","label":"2➛Asset Record","reference":"x_689729_mobile_as_asset","reference_display":"Asset Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan","type":"reference","base_type":"reference","attributes":{}},{"name":"b1a76cdd-0314-49d2-9d25-5a90377a7a87.table_name","label":"1➛Scan Table","reference":"x_689729_mobile_as_scan","reference_display":"Scan Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b1a76cdd-0314-49d2-9d25-5a90377a7a87.record","label":"1➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.assetcode","label":"Trigger➛Scan Record➛AssetCode","reference":"","reference_display":"AssetCode","type":"string","base_type":"string","parent_table_name":"x_689729_mobile_as_scan","column_name":"assetcode"},{"name":"Created_1.current.scannercode","label":"Trigger➛Scan Record➛ScannerCode","reference":"","reference_display":"ScannerCode","type":"string","base_type":"string","parent_table_name":"x_689729_mobile_as_scan","column_name":"scannercode"},{"name":"Created_1.current.location_code","label":"Trigger➛Scan Record➛Location Code","reference":"","reference_display":"Location Code","type":"string","base_type":"string","parent_table_name":"x_689729_mobile_as_scan","column_name":"location_code"},{"name":"9d58fc52-17b1-4eb2-981c-9c268f2cf081.record","label":"9➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9d58fc52-17b1-4eb2-981c-9c268f2cf081.table_name","label":"9➛Scan Table","reference":"x_689729_mobile_as_scan","reference_display":"Scan Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec830bb-8bd3-4812-a575-fbca63869677.record","label":"11➛Scan Record","reference":"x_689729_mobile_as_scan","reference_display":"Scan Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8ec830bb-8bd3-4812-a575-fbca63869677.table_name","label":"11➛Scan Table","reference":"x_689729_mobile_as_scan","reference_display":"Scan Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e037801c-c830-4b57-8b25-ae4d01ccd83c.Record.id","label":"2➛Asset Record➛Id","reference":"","reference_display":"Id","type":"integer","base_type":"integer","parent_table_name":"x_689729_mobile_as_asset","column_name":"id"},{"name":"8c874e27-d446-43a8-a436-d4fb479e8487.Record.id","label":"3➛Scanner Record➛Id","reference":"","reference_display":"Id","type":"integer","base_type":"integer","parent_table_name":"x_689729_mobile_as_scanner","column_name":"id"},{"name":"ed6e7ba0-528f-432a-a622-009cedd93992.Record.id","label":"4➛Location Record➛Id","reference":"","reference_display":"Id","type":"integer","base_type":"integer","parent_table_name":"x_689729_mobile_as_location","column_name":"id"}]</label_cache>
         <latest_snapshot>e28ef2c12f0330102578bac62799b698</latest_snapshot>
         <master_snapshot>9c5316f42fc330102578bac62799b66e</master_snapshot>
         <name>Scan Approval</name>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>02080a7c2f8330102578bac62799b6e2</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Scan Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mobile Asset Scanning" source="x_689729_mobile_as">6ce9d7222f2230102578bac62799b605</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_update_name>sys_hub_flow_02080a7c2f8330102578bac62799b6e2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:24</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:24</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=02080a7c2f8330102578bac62799b6e2"/>
@@ -104,10 +104,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 20:31:09</sys_created_on>
         <sys_id>0e484e7c2f8330102578bac62799b665</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:23</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:23</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -323,7 +323,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Find &lt;asset&gt;</comment>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Scan Approval">02080a7c2f8330102578bac62799b6e2</flow>
@@ -333,10 +333,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 21:42:51</sys_created_on>
         <sys_id>14b81af82fc330102578bac62799b689</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:23</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:23</sys_updated_on>
         <ui_id>e037801c-c830-4b57-8b25-ae4d01ccd83c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=14b81af82fc330102578bac62799b689"/>
@@ -450,7 +450,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Set to "rejected"</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Scan Approval">02080a7c2f8330102578bac62799b6e2</flow>
@@ -460,10 +460,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 22:07:58</sys_created_on>
         <sys_id>187e1a302f0730102578bac62799b6f3</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:24</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:24</sys_updated_on>
         <ui_id>8ec830bb-8bd3-4812-a575-fbca63869677</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=187e1a302f0730102578bac62799b6f3"/>
@@ -537,7 +537,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Set to "awaiting verification"</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Scan Approval">02080a7c2f8330102578bac62799b6e2</flow>
@@ -547,10 +547,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 21:15:42</sys_created_on>
         <sys_id>26721ab42fc330102578bac62799b693</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:23</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:23</sys_updated_on>
         <ui_id>b1a76cdd-0314-49d2-9d25-5a90377a7a87</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=26721ab42fc330102578bac62799b693"/>
@@ -634,10 +634,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 22:03:23</sys_created_on>
         <sys_id>456d1efc2fc330102578bac62799b6ba</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:24</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:24</sys_updated_on>
         <ui_id>114a9e7e-1773-4b92-8c57-bf547b4147b0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=456d1efc2fc330102578bac62799b6ba"/>
@@ -789,7 +789,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Set to "approved"</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Scan Approval">02080a7c2f8330102578bac62799b6e2</flow>
@@ -799,10 +799,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 22:07:58</sys_created_on>
         <sys_id>507e1a302f0730102578bac62799b6eb</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:24</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:24</sys_updated_on>
         <ui_id>9d58fc52-17b1-4eb2-981c-9c268f2cf081</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=507e1a302f0730102578bac62799b6eb"/>
@@ -886,10 +886,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 21:42:52</sys_created_on>
         <sys_id>64b81af82fc330102578bac62799b6b3</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:24</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:24</sys_updated_on>
         <ui_id>350692be-06b5-4837-9b63-ca99575086d7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=64b81af82fc330102578bac62799b6b3"/>
@@ -963,7 +963,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Set to "invalid data"</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Scan Approval">02080a7c2f8330102578bac62799b6e2</flow>
@@ -973,10 +973,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 21:42:52</sys_created_on>
         <sys_id>6cb81af82fc330102578bac62799b6bb</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:24</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:24</sys_updated_on>
         <ui_id>c67570b9-f049-47be-ab22-2383e898bc9f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6cb81af82fc330102578bac62799b6bb"/>
@@ -1050,7 +1050,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Find &lt;scanner&gt;</comment>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Scan Approval">02080a7c2f8330102578bac62799b6e2</flow>
@@ -1060,10 +1060,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 21:42:51</sys_created_on>
         <sys_id>a0b81af82fc330102578bac62799b693</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:23</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:23</sys_updated_on>
         <ui_id>8c874e27-d446-43a8-a436-d4fb479e8487</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0b81af82fc330102578bac62799b693"/>
@@ -1177,7 +1177,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Find &lt;location&gt;</comment>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Scan Approval">02080a7c2f8330102578bac62799b6e2</flow>
@@ -1187,10 +1187,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 21:42:52</sys_created_on>
         <sys_id>e0b81af82fc330102578bac62799b6a8</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:23</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:23</sys_updated_on>
         <ui_id>ed6e7ba0-528f-432a-a622-009cedd93992</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e0b81af82fc330102578bac62799b6a8"/>
@@ -1322,10 +1322,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 22:07:58</sys_created_on>
         <sys_id>187e1a302f0730102578bac62799b6e4</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:24</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:24</sys_updated_on>
         <ui_id>70457bba-8e5a-4f6f-a51b-cd5b6d5e659f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1391,10 +1391,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 22:07:58</sys_created_on>
         <sys_id>9c7e1a302f0730102578bac62799b6ed</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:24</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:24</sys_updated_on>
         <ui_id>58b519aa-669f-42cb-8903-da200f623e08</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1421,10 +1421,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 21:42:52</sys_created_on>
         <sys_id>a0b81af82fc330102578bac62799b6b6</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:24</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:24</sys_updated_on>
         <ui_id>a5b7c0a5-5e11-4ddc-8685-c69cc7230ad2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1452,10 +1452,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-04 21:42:52</sys_created_on>
         <sys_id>e0b81af82fc330102578bac62799b6ab</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Mobile Asset Scanning">6ce9d7222f2230102578bac62799b605</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-05 19:34:23</sys_updated_on>
+        <sys_updated_on>2021-10-06 15:34:24</sys_updated_on>
         <ui_id>a0b346ad-ec4a-4480-9352-3a2169f6de7b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
