@@ -4,7 +4,7 @@
         <element label="AssetCode" mandatory="true" max_length="20" name="assetcode" type="string"/>
         <element label="Location Code" mandatory="true" max_length="20" name="location_code" type="string"/>
         <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
-        <element display="true" label="ScannerCode" mandatory="true" max_length="20" name="scannercode" type="string"/>
+        <element label="ScannerCode" mandatory="true" max_length="20" name="scannercode" type="string"/>
         <element choice="3" default="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Awaiting Verification" sequence="1" value="1"/>
@@ -15,5 +15,6 @@
             </choice>
         </element>
         <element label="Timestamp" mandatory="true" max_length="40" name="timestamp" type="glide_date_time"/>
+        <element display="true" label="User Id" mandatory="true" max_length="40" name="user_id" type="string"/>
     </element>
 </database>
